@@ -7,11 +7,15 @@
   
 }
 
+body{
+  margin: 0;
+}
+
 .hide {
   display:none;
 }
 
-div {
+.footer {
   border-bottom: dashed;
   border-color: white;
 }
@@ -25,8 +29,10 @@ div {
   color: var(--primary-color);
   background-color: var(--secondary-color);
   transition: 1ms;
-  border: 1px solid white;
-  border-radius: 20px;
+  border-bottom: 1px solid black;
+  margin-top: 0px;
+
+  
 }
 
 .navigation_div {
@@ -39,16 +45,26 @@ div {
 
 .navigation_div {
   display: inline-block;
-  padding: 20px 60px;
+  padding: 20px 100px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
-  border: 1px solid white;
+  border: 10px solid black;
   border-radius: 20px;
   text-decoration: none;
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  margin-top: -50px;
+  margin-bottom: -1px;
+  margin-left: -15px;
+  margin-right: -15px;
+ 
 }
+
+
+
+
 
 a:link {
   color: var(--primary-color);
@@ -59,7 +75,7 @@ a:hover {
 }
 
 a:visited {
-  color: var(--text-color);
+  color: green;
 }
 
 a:active {
@@ -81,7 +97,8 @@ h2 {
 }
 
 body {
-  background: radial-gradient(circle, rgba(176,162,176,1) 0%, rgba(138,90,170,1) 100%);
+  background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 98%, rgba(205,0,201,1) 100%);
 }
 
 .video {
@@ -106,6 +123,7 @@ body {
   padding: 10px;
   box-shadow: 0 0 8px black;
   border-radius: 20px;
+  
 }
 
 .PVDimages {
