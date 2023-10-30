@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Levi Germeil">
+    <meta description="Biography Website| W1">
+    <title>You Don't Know Me</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/fmh7obw.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fmh7obw.css">
+
+    <style>     
+    </style>
+</head>
+<body>
+    <main>
+
+        <header>
+            YOU DON'T KNOW ME
+        </header>
+
+        <div id="biography_box">
+            <div id="bio" class="content">
+                
+                <img class="main_images" class="left" src="images/The_best.jpg" alt="Original Image">
+                
+                <div id="bio_paragraph" class="right">
+                    
+                    <h2>Bio</h2>
+                    <p>I was born  <u><b>February 2, 2004 in Brookly, New York</b></u>. Before the 2nd grade, I traveled to St. Martin and St. Thomas. I would attend school in St. Thomas for some time before returning back to the states then settling in New York until the 6th grade. 
+                        My family and I would then move to Rhode Island.</p>
+            
+                    <p>At the age of twelve I would develop an affinity for anime.</p>
+            
+                    <p>Now in days I spend my time either working, playing video games on my PC, listening to Music, watching movies, capturing videos and pictures, and finally learning to edit them in <strong>After Effects or Lightroom</strong>.</p>        
+                </div>
+                
+                
+            </div>
+        </div>
+        
+
+        <div id="education_box">
+
+            <div id="ed" class="content">
+                <div id="education_paragraph">
+                    <h2>Education</h2>
+                <ul>
+                    <li>
+                        <a href="https://www.starearlycollege.org/#" target="_blank"> S.T.A.R. Early College </a>
+                    </li>
+    
+                    <li>
+                        Slater Middle School
+                    </li>
+    
+                    <li>
+                        Charles E. Shea Senior High School
+                    </li>
+                </ul>
+                </div>
+                
+            </div>
+    
+        </div>
+        
+        <div id="hobbies_box">
+            <div id="hobbies" class="content">
+                
+                <div id ="hobbies_paragraph">
+                    <h2>Hobbies</h2>
+                    <ol>
+                        <li>
+                            Listening to music
+                        </li>
+                        
+                        <li>
+                            Video Editing... <i>I'm a beginner so I suck</i>
+                        </li>
+        
+                        <li>
+                            Photography
+                        </li>
+        
+                        
+        
+                    </ol>
+                </div>
+                <img class="PVDimages" src="images/PVD_Birds1.JPG" alt="Kennedy Plaza Buildings & Birds">
+                
+            </div>
+        </div>
+       
+
+        <footer>
+            <p>
+                ©2023 Levi "iizaya" Germeil | W2 Assignment
+            </p>
+        </footer>
+    </main>
+   
+
+    <script>
+        var a = document.querySelectorAll(`#nav a`);
+        
+        for(let i=0; i<a.length; i++)
+        {
+            a[i].addEventListener(`click`, function(e){
+                e.preventDefault();
+
+                var div = document.querySelectorAll(`.content`);
+
+                for(let i=0; i<div.length; i++)
+                {
+                    div[i].classList.add(`hide`);
+                }
+
+               div[i].classList.remove(`hide`);
+                
+            })
+        }
+
+      
+    </script>
+</body>
+</html>
