@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+main{
+    display:grid;
+    grid-template-areas:"h h h h h h"
+                        "b b b b b b"
+                        "i i i i e e"
+                        "f f f f f f";
+}
+
+header{}
+.banner{}
+.left_module{}
+.right_module{}
+.far_right_module{}
+footer{}
