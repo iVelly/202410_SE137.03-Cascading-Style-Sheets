@@ -16,7 +16,7 @@ body{
     display: grid;
     grid-template-areas:"head head head head head"
                         "banner banner banner banner farr"
-                        "leftm leftm rightm rightm farr"
+                        "left1 left1 right1 right1 farr"
                         "foot foot foot foot foot";
 } 
 
@@ -49,12 +49,13 @@ header{
     top: 21px;
 }
 
-#X{
+#twitter{
     position: absolute;
     width: 69px;
     height: 69px;
     left: 1740px;
     top: 16px;
+
 
 }
 
@@ -79,8 +80,8 @@ h1{
     top: 100px;
 }
 
-#left_module{
-    grid-area: leftm;
+#leftmod{
+    grid-area: left1;
     background-color: #393939;
     display:flex;
     flex-direction: row;
@@ -89,14 +90,14 @@ h1{
     margin: 24px 20px 24px 20px;
 }
 
-#left_content{
-    grid-area: leftm;
+#left2{
+    grid-area: left1;
     display: flex;
     flex-direction: column;
     margin-left: 19px;
 }
 
-#left_content p{
+#left2 p{
     font-family: 'Poppins';
     color: #FFFFFF;
     font-weight: 400;
@@ -128,7 +129,7 @@ h2{
     margin-bottom: 20px;
 }
 #purchase{
-    grid-area: leftm;
+    grid-area: left1;
     display:flex;
     flex-direction: column;
     justify-content:space-between;
@@ -168,8 +169,8 @@ h2{
     top: 825px;
 }
 
-#right_module{
-    grid-area: rightm;
+#rightmod{
+    grid-area: right1;
     background-color: #393939;
     display: flex;
     flex-direction: column;
@@ -189,7 +190,7 @@ h2{
     top: 530px;
 }
 
-#right_module p{
+#rightmod p{
     position: absolute;
     width: 676px;
     height: 195px;
@@ -206,7 +207,7 @@ h2{
     
 }
 
-#far_right_module{
+#farright{
     grid-area:farr;
     background-color: #393939;
     display: flex;
